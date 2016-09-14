@@ -1,0 +1,30 @@
+{
+  "name": "is-global-exec",
+  "version": "0.0.1",
+  "description": "Checks whether executable is global.",
+  "main": "index.js",
+  "scripts": {
+    "test:local": "test/test",
+    "test:global": "node test/test",
+    "test": "npm run test:local && npm run test:global"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QingWei-Li/is-global-exec.git"
+  },
+  "keywords": [
+    "global",
+    "executable",
+    "check"
+  ],
+  "author": "qingwei-li <cinwell.li@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QingWei-Li/is-global-exec/issues"
+  },
+  "homepage": "https://github.com/QingWei-Li/is-global-exec#readme",
+  "dependencies": {
+    "global-bin-path": "*",
+    "path-is-inside": "^1.0.2"
+  }
+}
