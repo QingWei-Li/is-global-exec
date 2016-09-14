@@ -1,6 +1,6 @@
 {
   "name": "is-global-exec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Checks whether executable is global.",
   "main": "index.js",
   "scripts": {
