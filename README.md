@@ -20,10 +20,11 @@ console.log(isGlobal())
 run script
 ```shell
 $ node test/test
-# -> true # 'node' is global executable
+# -> false # 'test/test' is local executable
 
 $ test/test
 # false # 'test/test' is local executable
+
 # if 'test/test' is install global, it will print 'true'
 ```
 

@@ -9,8 +9,7 @@
   "xo": {
     "space": true,
     "rules": {
-      "semi": 0,
-      "curly": 0
+      "semi": 0
     }
   },
   "repository": {
@@ -34,6 +33,8 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
+    "sync-exec": "^0.6.2",
+    "tacks": "^1.2.1",
     "xo": "^0.16.0"
   }
 }
