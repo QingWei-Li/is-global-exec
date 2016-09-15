@@ -1,4 +1,8 @@
 # is-global-exec
+
+[![Build Status](https://travis-ci.org/QingWei-Li/is-global-exec.svg?branch=master)](https://travis-ci.org/QingWei-Li/is-global-exec)
+[![npm](https://img.shields.io/npm/v/is-global-exec.svg?maxAge=2592000)](https://www.npmjs.com/package/is-global-exec)
+
 > Checks whether executable is global.
 
 ## Installation

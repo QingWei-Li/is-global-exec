@@ -4,9 +4,14 @@
   "description": "Checks whether executable is global.",
   "main": "index.js",
   "scripts": {
-    "test:local": "test/test",
-    "test:global": "node test/test",
-    "test": "npm run test:local && npm run test:global"
+    "test": "xo && ava"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "semi": 0,
+      "curly": 0
+    }
   },
   "repository": {
     "type": "git",
@@ -26,5 +31,9 @@
   "dependencies": {
     "global-bin-path": "*",
     "path-is-inside": "^1.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "xo": "^0.16.0"
   }
 }

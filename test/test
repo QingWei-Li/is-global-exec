@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 'use strict'
 
-var isGlobal = require('../index.js')
-console.log(isGlobal(), isGlobal())
-console.log(process.env._)
-console.log(__dirname)
+var isGlobal = require('../')
+console.log(isGlobal())
